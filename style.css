@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+/* Top Bar */
+.top-bar {
+    background: #2f2f92;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.top-links a,
+.right-controls span {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.right-controls {
+    display: flex;
+    align-items: center;
+}
+
+.right-controls select {
+    padding: 5px 10px;
+    margin-right: 15px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo-section img {
+    width: 170px;
+}
+
+.company-info {
+    text-align: center;
+    flex: 1;
+}
+
+.company-info h1 {
+    color: #2f2f92;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.company-info h3 {
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+.company-info p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Search */
+.search-stock {
+    width: 320px;
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-box button {
+    background: #2f2f92;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Stock Card */
+.stock-card {
+    border: 1px solid #ddd;
+    padding: 12px;
+    background: #fff;
+}
+
+.stock-card p {
+    font-size: 12px;
+    color: gray;
+}
+
+.stock-card h2 {
+    margin: 8px 0;
+    font-size: 42px;
+}
+
+.down {
+    color: red;
+    font-size: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background: #2f2f92;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 16px 18px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #4444b0;
+}
