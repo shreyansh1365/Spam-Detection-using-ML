@@ -1,3 +1,1 @@
-Hua? 
-YS 
-THANKU DI
+Krna hai aaj? 
